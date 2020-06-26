@@ -5,23 +5,23 @@ int main()
     system("cls");
     HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
     system("color f0");
-    printf("«H¥ôªº¤p¹CÀ¸¡G\n\n·Ç³Æ¦n­n¶}©l¤F¶Ü?\n\n");
+    printf("ä¿¡ä»»çš„å°éŠæˆ²ï¼š\n\næº–å‚™å¥½è¦é–‹å§‹äº†å—?\n\n");
     system("pause");
     system("cls");
-    printf("²{¦b¡A·Q¹³§A­±«e¦³»O¨â¤H¤@°_¨Ï¥Îªº¾÷¾¹¡A§A©M¥t¤@­Ó¤H¤@°_¨Ï¥Î¡A¤¤¶¡¥H¾÷¾¹¬Û¹j¡A§A¦b¥ª°¼¦Ó¥t¤@­Ó¤H¦b¾÷¾¹ªº¥k°¼¡G\n\n(§A­Ì¨â¦ì³£¬İ¤£¨ì¹ï¤èªº¨M©w)\n\n");
-    printf("³W«h¬O");
-    printf("·í");
+    printf("ç¾åœ¨ï¼Œæƒ³åƒä½ é¢å‰æœ‰è‡ºå…©äººä¸€èµ·ä½¿ç”¨çš„æ©Ÿå™¨ï¼Œä½ å’Œå¦ä¸€å€‹äººä¸€èµ·ä½¿ç”¨ï¼Œä¸­é–“ä»¥æ©Ÿå™¨ç›¸éš”ï¼Œä½ åœ¨å·¦å´è€Œå¦ä¸€å€‹äººåœ¨æ©Ÿå™¨çš„å³å´ï¼š\n\n(ä½ å€‘å…©ä½éƒ½çœ‹ä¸åˆ°å°æ–¹çš„æ±ºå®š)\n\n");
+    printf("è¦å‰‡æ˜¯");
+    printf("ç•¶");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("§A©ñ¶i¥h 1 ªTµw¹ô¡A¹ï¤è·|±o¨ì 3 ªTµw¹ô¡A¤Ï¤§¥çµM¡C\n\n");
+    printf("ä½ æ”¾é€²å» 1 æšç¡¬å¹£ï¼Œå°æ–¹æœƒå¾—åˆ° 3 æšç¡¬å¹£ï¼Œåä¹‹äº¦ç„¶ã€‚\n\n");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("§A­Ì¨â¦ì³£¥i¥H¿ï¾Ü");
+    printf("ä½ å€‘å…©ä½éƒ½å¯ä»¥é¸æ“‡");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("¡u¦X§@¡v¡]©ñ 1 ªTµw¹ô¡^");
+    printf("ã€Œåˆä½œã€ï¼ˆæ”¾ 1 æšç¡¬å¹£ï¼‰");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("©ÎªÌ");
-    printf("¡u´ÛÄF¡v¡]¤£©ñµw¹ô¡^¡C\n\n");
-    printf("¦pªG²{¦b»¡¡G¹ï¤è·|¿ï¡u´ÛÄF¡v¡G¤£©ñµw¹ô¶i¥h¡A¥ªÃäªº§A¡A¸Ó«ç»ò°µ©O¡H\n\n");
-    printf("§Aªº¿ï¾Ü¬O(1)¥Nªí´ÛÄF¡A(2)¥Nªí¦X§@¡G...>");
+    printf("æˆ–è€…");
+    printf("ã€Œæ¬ºé¨™ã€ï¼ˆä¸æ”¾ç¡¬å¹£ï¼‰ã€‚\n\n");
+    printf("å¦‚æœç¾åœ¨èªªï¼šå°æ–¹æœƒé¸ã€Œæ¬ºé¨™ã€ï¼šä¸æ”¾ç¡¬å¹£é€²å»ï¼Œå·¦é‚Šçš„ä½ ï¼Œè©²æ€éº¼åšå‘¢ï¼Ÿ\n\n");
+    printf("ä½ çš„é¸æ“‡æ˜¯(1)ä»£è¡¨æ¬ºé¨™ï¼Œ(2)ä»£è¡¨åˆä½œï¼š...>");
     int score[5]= {};
     int choice1=0;
     while(scanf("%d",&choice1)==1)
@@ -30,84 +30,84 @@ int main()
         if(choice1==1)
         {
             printf("\n");
-            printf("´N¬O³o¼Ë¡I¾Ì¤°»ò­n«K©y¥L¡H\n\n");
-            printf("¦pªG§A¦X§@");
-            printf("¡A¦ı¬O¹ï¤è¿ï¾Ü´ÛÄF");
-            printf("¡A§A±N¥¢¥h 1 ªTµw¹ô¡A¦ı¬O¹ï¤è¥i¥H±o¨ì 3 ªT¡]-1:+3¡^¡C\n\n");
-            printf("¦ı¬O¡A¦pªG§A­Ì¨â¦ì³£¿ï¾Ü´ÛÄF");
-            printf("¡A¨º");
-            printf("¨â¤H³£¬J±o¤£¨ì¤°»ò¡A¤]¤£·|¥¢¥h¤°»ò¡]0¡G0¡^¡C\n\n");
-            printf("©Ò¥H¡G«ö·Ó");
-            printf("¡u¤@¯ë¤H©Ê¡v");
-            printf("¨Ó»¡");
-            printf("¡A§AÀ³¸Ó¿ï¾Ü¡u´ÛÄF¡v¡C\n\n");
+            printf("å°±æ˜¯é€™æ¨£ï¼æ†‘ä»€éº¼è¦ä¾¿å®œä»–ï¼Ÿ\n\n");
+            printf("å¦‚æœä½ åˆä½œ");
+            printf("ï¼Œä½†æ˜¯å°æ–¹é¸æ“‡æ¬ºé¨™");
+            printf("ï¼Œä½ å°‡å¤±å» 1 æšç¡¬å¹£ï¼Œä½†æ˜¯å°æ–¹å¯ä»¥å¾—åˆ° 3 æšï¼ˆ-1:+3ï¼‰ã€‚\n\n");
+            printf("ä½†æ˜¯ï¼Œå¦‚æœä½ å€‘å…©ä½éƒ½é¸æ“‡æ¬ºé¨™");
+            printf("ï¼Œé‚£");
+            printf("å…©äººéƒ½æ—¢å¾—ä¸åˆ°ä»€éº¼ï¼Œä¹Ÿä¸æœƒå¤±å»ä»€éº¼ï¼ˆ0ï¼š0ï¼‰ã€‚\n\n");
+            printf("æ‰€ä»¥ï¼šæŒ‰ç…§");
+            printf("ã€Œä¸€èˆ¬äººæ€§ã€");
+            printf("ä¾†èªª");
+            printf("ï¼Œä½ æ‡‰è©²é¸æ“‡ã€Œæ¬ºé¨™ã€ã€‚\n\n");
             break;
         }
         else if(choice1==2)
         {
             printf("\n");
-            printf("§â¥ªÁy¤]¦ù¹L¥h¡A¥u·|¦h®Á¤@¤U¥´¡A¨S¦³¦n³B§r¡I\n\n");
-            printf("¦pªG§A¦X§@¡A¦ı¬O¹ï¤è¿ï¾Ü´ÛÄF¡A§A±N¥¢¥h 1 ªTµw¹ô¡A¦ı¬O¹ï¤è¥i¥H±o¨ì 3 ªT¡]-1:+3¡^¡C\n\n");
-            printf("¦ı¬O¡A¦pªG§A­Ì¨â¦ì³£¿ï¾Ü´ÛÄF¡A¨º¨â¤H³£¬J±o¤£¨ì¤°»ò¡A¤]¤£·|¥¢¥h¤°»ò¡]0¡G0¡^¡C\n\n");
-            printf("©Ò¥H¡G«ö·Ó¡u¤@¯ë¤H©Ê¡v¨Ó»¡¡A§AÀ³¸Ó¿ï¾Ü¡u´ÛÄF¡v¡C\n\n");
+            printf("æŠŠå·¦è‡‰ä¹Ÿä¼¸éå»ï¼Œåªæœƒå¤šæŒ¨ä¸€ä¸‹æ‰“ï¼Œæ²’æœ‰å¥½è™•å‘€ï¼\n\n");
+            printf("å¦‚æœä½ åˆä½œï¼Œä½†æ˜¯å°æ–¹é¸æ“‡æ¬ºé¨™ï¼Œä½ å°‡å¤±å» 1 æšç¡¬å¹£ï¼Œä½†æ˜¯å°æ–¹å¯ä»¥å¾—åˆ° 3 æšï¼ˆ-1:+3ï¼‰ã€‚\n\n");
+            printf("ä½†æ˜¯ï¼Œå¦‚æœä½ å€‘å…©ä½éƒ½é¸æ“‡æ¬ºé¨™ï¼Œé‚£å…©äººéƒ½æ—¢å¾—ä¸åˆ°ä»€éº¼ï¼Œä¹Ÿä¸æœƒå¤±å»ä»€éº¼ï¼ˆ0ï¼š0ï¼‰ã€‚\n\n");
+            printf("æ‰€ä»¥ï¼šæŒ‰ç…§ã€Œä¸€èˆ¬äººæ€§ã€ä¾†èªªï¼Œä½ æ‡‰è©²é¸æ“‡ã€Œæ¬ºé¨™ã€ã€‚\n\n");
             break;
         }
         else
         {
             printf("\n");
-            printf("(¥²¶·¿é¤J1©Î2¨Ó¨M©w´ÛÄF©ÎªÌ¬O¦X§@³á¡I)\n½Ğ¦A¿é¤J¤@¦¸§a¡I\n\n");
+            printf("(å¿…é ˆè¼¸å…¥1æˆ–2ä¾†æ±ºå®šæ¬ºé¨™æˆ–è€…æ˜¯åˆä½œå–”ï¼)\nè«‹å†è¼¸å…¥ä¸€æ¬¡å§ï¼\n\n");
         }
     }
     system("pause");
     system("cls");
-    printf("¦ı¬O¡A¦pªG§Ú§i¶D§A¡A¹ï¤è±N¿ï¾Ü¦X§@¡G¥L·|§ë 1 ªTµw¹ô¡C\n\n");
-    printf("§A²{¦b¤S¸Ó«ç»ò°µ©O¡H\n\n§Aªº¿ï¾Ü¬O(1)¥Nªí´ÛÄF¡A(2)¥Nªí¦X§@¡G...>");
+    printf("ä½†æ˜¯ï¼Œå¦‚æœæˆ‘å‘Šè¨´ä½ ï¼Œå°æ–¹å°‡é¸æ“‡åˆä½œï¼šä»–æœƒæŠ• 1 æšç¡¬å¹£ã€‚\n\n");
+    printf("ä½ ç¾åœ¨åˆè©²æ€éº¼åšå‘¢ï¼Ÿ\n\nä½ çš„é¸æ“‡æ˜¯(1)ä»£è¡¨æ¬ºé¨™ï¼Œ(2)ä»£è¡¨åˆä½œï¼š...>");
     while(scanf("%d",&choice1)==1)
     {
         printf("\n====================================\n");
         if(choice1==1)
         {
             printf("\n");
-            printf("«z¡K¡K¦³ÂI¯Ê¼w°Ú¡ã¤£¹L¡A³o¬O¥¿½Tªºµª®×¡I\n\n");
-            printf("¦pªG§A­Ì¨â¦ì³£¿ï¾Ü¤F¦X§@¡A§A­Ì¦U¥I¥X¤F 1 ªTµw¹ô«á¡A±o¨ì¤F 3 ªT¡]+2:+2¡^¡C\n\n");
-            printf("¦ı¬O¡A¦pªG§A¿ï¾Ü´ÛÄF¡A¦ı¬O¹ï¤è«o¦X§@¡A§A±NÁÈ¨ì 3 ªTµw¹ô¡A¦ı¹ï¤è·|¥¢¥h 1 ªT¡]+3:-1¡^¡C \n\n");
-            printf("©Ò¥H¡A§AÁÙ¬O¡uÀ³¸Ó¡v¿ï¾Ü´ÛÄF¡A¹ï¦Û¤v³Ì¦³§Q¡C\n\n");
+            printf("å“‡â€¦â€¦æœ‰é»ç¼ºå¾·å•Šï½ä¸éï¼Œé€™æ˜¯æ­£ç¢ºçš„ç­”æ¡ˆï¼\n\n");
+            printf("å¦‚æœä½ å€‘å…©ä½éƒ½é¸æ“‡äº†åˆä½œï¼Œä½ å€‘å„ä»˜å‡ºäº† 1 æšç¡¬å¹£å¾Œï¼Œå¾—åˆ°äº† 3 æšï¼ˆ+2:+2ï¼‰ã€‚\n\n");
+            printf("ä½†æ˜¯ï¼Œå¦‚æœä½ é¸æ“‡æ¬ºé¨™ï¼Œä½†æ˜¯å°æ–¹å»åˆä½œï¼Œä½ å°‡è³ºåˆ° 3 æšç¡¬å¹£ï¼Œä½†å°æ–¹æœƒå¤±å» 1 æšï¼ˆ+3:-1ï¼‰ã€‚ \n\n");
+            printf("æ‰€ä»¥ï¼Œä½ é‚„æ˜¯ã€Œæ‡‰è©²ã€é¸æ“‡æ¬ºé¨™ï¼Œå°è‡ªå·±æœ€æœ‰åˆ©ã€‚\n\n");
             break;
         }
         else if(choice1==2)
         {
             printf("\n");
-            printf("¨S¿ù¡A¬İ°_¨Ó½T¹êÀ³¸Ó³o¼Ë¡K¡K¦ı¬O¡A¥J²Ó·Q·Q¡A¬O¶Ü¡H \n\n");
-            printf("¦pªG§A­Ì¨âªT³£¿ï¾Ü¤F¦X§@¡A§A­Ì¦U¥I¥X¤F 1 ªTµw¹ô«á¡A±o¨ì¤F 3 ªT¡]+2:+2¡^¡C\n\n");
-            printf("¦ı¬O¡A¦pªG§A¿ï¾Ü´ÛÄF¡A¦ı¬O¹ï¤è«o¦X§@¡A§A±NÁÈ¨ì 3 ªTµw¹ô¡A¦ı¹ï¤è·|¥¢¥h 1 ªT¡]+3:-1¡^¡C \n\n");
-            printf("©Ò¥H¡A§AÁÙ¬O¡uÀ³¸Ó¡v¿ï¾Ü´ÛÄF¡A¹ï¦Û¤v³Ì¦³§Q¡C\n\n");
+            printf("æ²’éŒ¯ï¼Œçœ‹èµ·ä¾†ç¢ºå¯¦æ‡‰è©²é€™æ¨£â€¦â€¦ä½†æ˜¯ï¼Œä»”ç´°æƒ³æƒ³ï¼Œæ˜¯å—ï¼Ÿ \n\n");
+            printf("å¦‚æœä½ å€‘å…©æšéƒ½é¸æ“‡äº†åˆä½œï¼Œä½ å€‘å„ä»˜å‡ºäº† 1 æšç¡¬å¹£å¾Œï¼Œå¾—åˆ°äº† 3 æšï¼ˆ+2:+2ï¼‰ã€‚\n\n");
+            printf("ä½†æ˜¯ï¼Œå¦‚æœä½ é¸æ“‡æ¬ºé¨™ï¼Œä½†æ˜¯å°æ–¹å»åˆä½œï¼Œä½ å°‡è³ºåˆ° 3 æšç¡¬å¹£ï¼Œä½†å°æ–¹æœƒå¤±å» 1 æšï¼ˆ+3:-1ï¼‰ã€‚ \n\n");
+            printf("æ‰€ä»¥ï¼Œä½ é‚„æ˜¯ã€Œæ‡‰è©²ã€é¸æ“‡æ¬ºé¨™ï¼Œå°è‡ªå·±æœ€æœ‰åˆ©ã€‚\n\n");
             break;
         }
         else
         {
-            printf("¥²¶·¿é¤J1©Î2¨Ó¨M©w´ÛÄF©ÎªÌ¬O¦X§@³á¡I\n½Ğ¦A¿é¤J¤@¦¸§a¡I\n");
+            printf("å¿…é ˆè¼¸å…¥1æˆ–2ä¾†æ±ºå®šæ¬ºé¨™æˆ–è€…æ˜¯åˆä½œå–”ï¼\nè«‹å†è¼¸å…¥ä¸€æ¬¡å§ï¼\n");
         }
     }
     system("pause");
     system("cls");
     system("color f0");
-    printf("§A¬İ¡A³o´N¬O§Ú­Ìªºµ~¹Ò¤F¡C\n\n«H¥ô©TµM¦n¡A¦ı·|Åı§O¤H¦û§Aªº«K©y¡C\n\n¦³¨Ç®É­Ô¡A¿ï¾Ü¡u¤£«H¥ô¡v¬O²z©Êªº¡I\n\nµM¦Ó¡A¦pªG³o³õ¹CÀ¸");
+    printf("ä½ çœ‹ï¼Œé€™å°±æ˜¯æˆ‘å€‘çš„çª˜å¢ƒäº†ã€‚\n\nä¿¡ä»»å›ºç„¶å¥½ï¼Œä½†æœƒè®“åˆ¥äººä½”ä½ çš„ä¾¿å®œã€‚\n\næœ‰äº›æ™‚å€™ï¼Œé¸æ“‡ã€Œä¸ä¿¡ä»»ã€æ˜¯ç†æ€§çš„ï¼\n\nç„¶è€Œï¼Œå¦‚æœé€™å ´éŠæˆ²");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("¤£¬O¤@¦¸´Nµ²§ô¡A¦Ó¬O­«½Æª±«Ü¦h¦¸...\n\n");
+    printf("ä¸æ˜¯ä¸€æ¬¡å°±çµæŸï¼Œè€Œæ˜¯é‡è¤‡ç©å¾ˆå¤šæ¬¡...\n\n");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("µª®×·|¦³©Ò¤£¦P¶Ü¡H\n\n");
+    printf("ç­”æ¡ˆæœƒæœ‰æ‰€ä¸åŒå—ï¼Ÿ\n\n");
     system("pause");
     system("cls");
-    printf("³o¦¸¡A§Ú­Ì¨Óª±¯uªº¡I\n\n±µ¤U¨Ó¡A");
+    printf("é€™æ¬¡ï¼Œæˆ‘å€‘ä¾†ç©çœŸçš„ï¼\n\næ¥ä¸‹ä¾†ï¼Œ");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("§A±N»P 5 ¦W¤£¦Pªºª±®a¶i¦æ¹CÀ¸¡A¨C­Ó¤H³£¦³¥L­Ì¦Û¤vªº¡u¹CÀ¸µ¦²¤¡v¡C\n\n");
+    printf("ä½ å°‡èˆ‡ 5 åä¸åŒçš„ç©å®¶é€²è¡ŒéŠæˆ²ï¼Œæ¯å€‹äººéƒ½æœ‰ä»–å€‘è‡ªå·±çš„ã€ŒéŠæˆ²ç­–ç•¥ã€ã€‚\n\n");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("¨C¦ìª±®a");
+    printf("æ¯ä½ç©å®¶");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("·|»P§A¹ï§½ 3 ¨ì 7 ¨B¡A§A¨Ã¤£ª¾¹D­ş¤@¨B¬O³o§½ªº³Ì«á¤@¨B¡C");
+    printf("æœƒèˆ‡ä½ å°å±€ 3 åˆ° 7 æ­¥ï¼Œä½ ä¸¦ä¸çŸ¥é“å“ªä¸€æ­¥æ˜¯é€™å±€çš„æœ€å¾Œä¸€æ­¥ã€‚");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("§A¥i¥H¬Û«H¥L­Ì¶Ü¡H©ÎªÌ»¡¡K¡K¥L­Ì¥i¥H¬Û«H§A¶Ü¡H\n\n");
-    printf("¨Ó¡A§i¶D§Ú§Aªº²Ä¤@­Ó¯u¥¿ªº¿ï¾Ü¡C­n·Q²M·¡³á¡G\n\n");
+    printf("ä½ å¯ä»¥ç›¸ä¿¡ä»–å€‘å—ï¼Ÿæˆ–è€…èªªâ€¦â€¦ä»–å€‘å¯ä»¥ç›¸ä¿¡ä½ å—ï¼Ÿ\n\n");
+    printf("ä¾†ï¼Œå‘Šè¨´æˆ‘ä½ çš„ç¬¬ä¸€å€‹çœŸæ­£çš„é¸æ“‡ã€‚è¦æƒ³æ¸…æ¥šå–”ï¼š\n\n");
     system("pause");
     system("cls");
     Allplayer allplayers;
@@ -119,7 +119,7 @@ int main()
         }
     }
     char EnglishNames[PlayerNum][MaxNameLength]= {"Copy Cat","Killing You","Goodness","Smart","Detector Holmes"}; //"","","","",""
-    char ChineseNames[PlayerNum][MaxNameLength]= {"¼Ò¥é¿ß","¶Â§A¶Â¨ì©³","¤jµ½¤H","¤û¤åÁo","ºÖº¸¼¯¬P¨à"};
+    char ChineseNames[PlayerNum][MaxNameLength]= {"æ¨¡ä»¿è²“","é»‘ä½ é»‘åˆ°åº•","å¤§å–„äºº","ç‰›æ–‡è°","ç¦çˆ¾æ‘©æ˜Ÿå…’"};
     bool printnewhighrecord[5];
     for(int i=0; i<PlayerNum; i++)
     {
@@ -134,19 +134,19 @@ int main()
         {
         case 1:
         {
-            //------------------²Ä¤@¦ìª±®a¶}©l---------------------//
+            //------------------ç¬¬ä¸€ä½ç©å®¶é–‹å§‹---------------------//
             int choice_intimate=0;
             SetConsoleTextAttribute(hConsole, 0xF9 );
-            printf("²Ä%d/5¦ìª±®a\n",j);
+            printf("ç¬¬%d/5ä½ç©å®¶\n",j);
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("§AªºÁ`¤À¡G%d\n",answer);
+            printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
             bool cooperate=true;
             bool precooperate=true;
             gametimes=5;
             int yourscore[5]= {};
             for(int i=1; i<=gametimes; i++)
             {
-                printf("§Aªº¿ï¾Ü[(1)¥Nªí´ÛÄF/(2)¥Nªí¦X§@]¡G...>");
+                printf("ä½ çš„é¸æ“‡[(1)ä»£è¡¨æ¬ºé¨™/(2)ä»£è¡¨åˆä½œ]ï¼š...>");
                 scanf("%d",&choice_intimate);
                 if(choice_intimate==1)
                 {
@@ -154,8 +154,8 @@ int main()
                     intimate(cooperate, precooperate, &yourscore[i-1], &answer, &allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                     precooperate=cooperate;
                 }
                 else if(choice_intimate==2)
@@ -164,13 +164,13 @@ int main()
                     intimate(cooperate, precooperate, &yourscore[i-1], &answer, &allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                     precooperate=cooperate;
                 }
                 else
                 {
-                    printf("¥²¶·¿é¤J1©Î2¨Ó¨M©w´ÛÄF©ÎªÌ¬O¦X§@³á¡I\n(³o¦¸¿é¤J±N¤£·|­p¤À¡I)\n");
+                    printf("å¿…é ˆè¼¸å…¥1æˆ–2ä¾†æ±ºå®šæ¬ºé¨™æˆ–è€…æ˜¯åˆä½œå–”ï¼\n(é€™æ¬¡è¼¸å…¥å°‡ä¸æœƒè¨ˆåˆ†ï¼)\n");
                 }
                 printf("\n");
             }
@@ -209,28 +209,28 @@ int main()
             }
             MakeCharacters(player1fp, &gametimes, yourscore, &(allplayers.players[j-1]));
             printf("\n");
-            printf("¦¹¦^¦Xµ²§ô¡A\n¤U¤@¦ì¹q¸£ª±®a......\n\n\n");
+            printf("æ­¤å›åˆçµæŸï¼Œ\nä¸‹ä¸€ä½é›»è…¦ç©å®¶......\n\n\n");
             system("pause");
             system("cls");
-            //------------------²Ä¤@¦ìª±®aµ²§ô---------------------//
+            //------------------ç¬¬ä¸€ä½ç©å®¶çµæŸ---------------------//
             break;
         }
         case 2:
         {
-            //------------------²Ä¤G¦ìª±®a¶}©l---------------------//
+            //------------------ç¬¬äºŒä½ç©å®¶é–‹å§‹---------------------//
             int choice_always_lie=0;
             selfpoint=0;
             compt=0;
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("²Ä%d/5¦ìª±®a\n",j);
+            printf("ç¬¬%d/5ä½ç©å®¶\n",j);
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("§AªºÁ`¤À¡G%d\n",answer);
+            printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
             bool bool_always_lie=0;
             gametimes=4;
             int yourscore[4]= {};
             for(int i=1; i<=gametimes; i++)
             {
-                printf("§Aªº¿ï¾Ü[(1)¥Nªí´ÛÄF/(2)¥Nªí¦X§@]¡G...>");
+                printf("ä½ çš„é¸æ“‡[(1)ä»£è¡¨æ¬ºé¨™/(2)ä»£è¡¨åˆä½œ]ï¼š...>");
                 scanf("%d",&choice_always_lie);
                 if(choice_always_lie==1)
                 {
@@ -238,8 +238,8 @@ int main()
                     always_lie(bool_always_lie, &yourscore[i-1], &answer,&allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                 }
                 else if(choice_always_lie==2)
                 {
@@ -247,12 +247,12 @@ int main()
                     always_lie(bool_always_lie, &yourscore[i-1], &answer,&allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                 }
                 else
                 {
-                    printf("¥²¶·¿é¤J1©Î2¨Ó¨M©w´ÛÄF©ÎªÌ¬O¦X§@³á¡I\n(³o¦¸¿é¤J±N¤£·|­p¤À¡I)\n");
+                    printf("å¿…é ˆè¼¸å…¥1æˆ–2ä¾†æ±ºå®šæ¬ºé¨™æˆ–è€…æ˜¯åˆä½œå–”ï¼\n(é€™æ¬¡è¼¸å…¥å°‡ä¸æœƒè¨ˆåˆ†ï¼)\n");
                 }
                 printf("\n");
             }
@@ -293,47 +293,47 @@ int main()
                 allplayers.players[j-1].highestscore=num;
             }
             MakeCharacters(player2fp, &gametimes, yourscore, (&allplayers.players[j-1]));
-            printf("¦¹¦^¦Xµ²§ô¡A\n¤U¤@¦ì¹q¸£ª±®a......\n\n\n");
+            printf("æ­¤å›åˆçµæŸï¼Œ\nä¸‹ä¸€ä½é›»è…¦ç©å®¶......\n\n\n");
             system("pause");
             system("cls");
-            //------------------²Ä¤G¦ìª±®aµ²§ô---------------------//
+            //------------------ç¬¬äºŒä½ç©å®¶çµæŸ---------------------//
             break;
         }
         case 3:
         {
-            //------------------²Ä¤T¦ìª±®a¶}©l---------------------//
+            //------------------ç¬¬ä¸‰ä½ç©å®¶é–‹å§‹---------------------//
             selfpoint=0;
             compt=0;
             SetConsoleTextAttribute(hConsole, 0xFD );
-            printf("²Ä%d/5¦ìª±®a\n",j);
+            printf("ç¬¬%d/5ä½ç©å®¶\n",j);
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("§AªºÁ`¤À¡G%d\n",answer);
+            printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
             gametimes=4;
             int yourscore[5]= {};
             int choice_always_cooperate=0;
             for(int i=1; i<=4; i++)
             {
-                printf("§Aªº¿ï¾Ü[(1)¥Nªí´ÛÄF/(2)¥Nªí¦X§@]¡G...>");
+                printf("ä½ çš„é¸æ“‡[(1)ä»£è¡¨æ¬ºé¨™/(2)ä»£è¡¨åˆä½œ]ï¼š...>");
                 scanf("%d",&choice_always_cooperate);
                 if(choice_always_cooperate==1)
                 {
                     always_cooperate(&choice_always_cooperate, &yourscore[i-1], &answer, &allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                 }
                 else if(choice_always_cooperate==2)
                 {
                     always_cooperate(&choice_always_cooperate, &yourscore[i-1], &answer, &allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                 }
                 else
                 {
-                    printf("¥²¶·¿é¤J1©Î2¨Ó¨M©w´ÛÄF©ÎªÌ¬O¦X§@³á¡I\n(³o¦¸¿é¤J±N¤£·|­p¤À¡I)\n");
+                    printf("å¿…é ˆè¼¸å…¥1æˆ–2ä¾†æ±ºå®šæ¬ºé¨™æˆ–è€…æ˜¯åˆä½œå–”ï¼\n(é€™æ¬¡è¼¸å…¥å°‡ä¸æœƒè¨ˆåˆ†ï¼)\n");
                 }
                 printf("\n");
             }
@@ -372,36 +372,36 @@ int main()
                 allplayers.players[j-1].highestscore=num;
             }
             MakeCharacters(player3fp, &gametimes, yourscore, (&allplayers.players[j-1]));
-            printf("¦¹¦^¦Xµ²§ô¡A\n¤U¤@¦ì¹q¸£ª±®a......\n\n\n");
+            printf("æ­¤å›åˆçµæŸï¼Œ\nä¸‹ä¸€ä½é›»è…¦ç©å®¶......\n\n\n");
             system("pause");
             system("cls");
-            //------------------²Ä¤T¦ìª±®aµ²§ô---------------------//
+            //------------------ç¬¬ä¸‰ä½ç©å®¶çµæŸ---------------------//
             break;
         }
         case 4:
         {
-            //------------------²Ä¥|¦ìª±®a¶}©l---------------------//
+            //------------------ç¬¬å››ä½ç©å®¶é–‹å§‹---------------------//
             selfpoint=0;
             compt=0;
             int choice_foreverlie_afterbelied=0;
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf("²Ä%d/5¦ìª±®a\n",j);
+            printf("ç¬¬%d/5ä½ç©å®¶\n",j);
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("§AªºÁ`¤À¡G%d\n",answer);
+            printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
             gametimes=5;
             int yourscore[5]= {};
             bool bool_foreverlie_afterbelied=false;
             for(int i=1; i<=gametimes; i++)
             {
-                printf("§Aªº¿ï¾Ü[(1)¥Nªí´ÛÄF/(2)¥Nªí¦X§@]¡G...>");
+                printf("ä½ çš„é¸æ“‡[(1)ä»£è¡¨æ¬ºé¨™/(2)ä»£è¡¨åˆä½œ]ï¼š...>");
                 scanf("%d",&choice_foreverlie_afterbelied);
                 if(choice_foreverlie_afterbelied==1)
                 {
                     foreverlie_afterbelied(choice_foreverlie_afterbelied, bool_foreverlie_afterbelied, &yourscore[i-1], &answer, &allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                     bool_foreverlie_afterbelied=true;
                 }
                 else if(choice_foreverlie_afterbelied==2)
@@ -409,12 +409,12 @@ int main()
                     foreverlie_afterbelied(choice_foreverlie_afterbelied, bool_foreverlie_afterbelied, &yourscore[i-1], &answer, &allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                 }
                 else
                 {
-                    printf("¥²¶·¿é¤J1©Î2¨Ó¨M©w´ÛÄF©ÎªÌ¬O¦X§@³á¡I\n(³o¦¸¿é¤J±N¤£·|­p¤À¡I)\n");
+                    printf("å¿…é ˆè¼¸å…¥1æˆ–2ä¾†æ±ºå®šæ¬ºé¨™æˆ–è€…æ˜¯åˆä½œå–”ï¼\n(é€™æ¬¡è¼¸å…¥å°‡ä¸æœƒè¨ˆåˆ†ï¼)\n");
                 }
                 printf("\n");
             }
@@ -453,29 +453,29 @@ int main()
                 allplayers.players[j-1].highestscore=num;
             }
             MakeCharacters(player4fp, &gametimes, yourscore, (&allplayers.players[j-1]));
-            printf("¦¹¦^¦Xµ²§ô¡A¤U¤@¦ìª±®a......\n\n\n");
+            printf("æ­¤å›åˆçµæŸï¼Œä¸‹ä¸€ä½ç©å®¶......\n\n\n");
             system("pause");
             system("cls");
-            //------------------²Ä¥|¦ìª±®aµ²§ô---------------------//
+            //------------------ç¬¬å››ä½ç©å®¶çµæŸ---------------------//
             break;
         }
         case 5:
         {
-            //------------------²Ä¤­¦ìª±®a¶}©l---------------------//
+            //------------------ç¬¬äº”ä½ç©å®¶é–‹å§‹---------------------//
             selfpoint=0;
             compt=0;
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf("²Ä%d/5¦ìª±®a\n",j);
+            printf("ç¬¬%d/5ä½ç©å®¶\n",j);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             bool cooperate_complicate=true, cooperate_complicate_forward=true;
             int choice_complicate=0;
             gametimes=7;
             int yourscore[7]= {};
             bool foreverlie=false;
-            printf("§AªºÁ`¤À¡G%d\n",answer);
+            printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
             for(int i=1; i<=gametimes; i++)
             {
-                printf("§Aªº¿ï¾Ü[(1)¥Nªí´ÛÄF/(2)¥Nªí¦X§@]¡G...>");
+                printf("ä½ çš„é¸æ“‡[(1)ä»£è¡¨æ¬ºé¨™/(2)ä»£è¡¨åˆä½œ]ï¼š...>");
                 scanf("%d",&choice_complicate);
                 if(choice_complicate==1)
                 {
@@ -483,8 +483,8 @@ int main()
                     complicate(cooperate_complicate, cooperate_complicate_forward, i, &foreverlie, choice_complicate, &yourscore[i-1], &answer, &allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                     cooperate_complicate_forward=cooperate_complicate;
                 }
                 else if(choice_complicate==2)
@@ -493,13 +493,13 @@ int main()
                     complicate(cooperate_complicate, cooperate_complicate_forward, i, &foreverlie, choice_complicate, &yourscore[i-1], &answer,&allplayers.players[j-1].compoint[i-1]);
                     compt+=allplayers.players[j-1].compoint[i-1];
                     selfpoint+=yourscore[i-1];
-                    printf("§Aªº¤À¼Æ¡G%d vs %d¡G¹q¸£ª±®aªº¤À¼Æ\n",selfpoint,compt);
-                    printf("§AªºÁ`¤À¡G%d\n",answer);
+                    printf("ä½ çš„åˆ†æ•¸ï¼š%d vs %dï¼šé›»è…¦ç©å®¶çš„åˆ†æ•¸\n",selfpoint,compt);
+                    printf("ä½ çš„ç¸½åˆ†ï¼š%d\n",answer);
                     cooperate_complicate_forward=cooperate_complicate;
                 }
                 else
                 {
-                    printf("¥²¶·¿é¤J1©Î2¨Ó¨M©w´ÛÄF©ÎªÌ¬O¦X§@³á¡I\n(³o¦¸¿é¤J±N¤£·|­p¤À¡I)\n");
+                    printf("å¿…é ˆè¼¸å…¥1æˆ–2ä¾†æ±ºå®šæ¬ºé¨™æˆ–è€…æ˜¯åˆä½œå–”ï¼\n(é€™æ¬¡è¼¸å…¥å°‡ä¸æœƒè¨ˆåˆ†ï¼)\n");
                 }
                 printf("\n");
             }
@@ -545,7 +545,7 @@ int main()
         }
     }
     bool sumnewhigh = false;
-    printf("§Aªº³Ì²×±o¤À¬O¡G");
+    printf("ä½ çš„æœ€çµ‚å¾—åˆ†æ˜¯ï¼š");
     SetConsoleTextAttribute(hConsole, 0xFC );
     printf("%d\n",answer);
     FILE *sumfp = fopen("Sum.txt", "r");
@@ -563,8 +563,8 @@ int main()
         }
     }
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("¡]³Ì§C¤À¬°7¤À¡A³Ì°ª¤À¬°49¤À¡^\n");
-    printf("©Ò¥H¡A­è­è¸ò§A¹ï¾Ôªº¨º¨Ç©_©Ç¨¤¦â¨ì©³¬O½Ö©O¡H\n\n");
+    printf("ï¼ˆæœ€ä½åˆ†ç‚º7åˆ†ï¼Œæœ€é«˜åˆ†ç‚º49åˆ†ï¼‰\n");
+    printf("æ‰€ä»¥ï¼Œå‰›å‰›è·Ÿä½ å°æˆ°çš„é‚£äº›å¥‡æ€ªè§’è‰²åˆ°åº•æ˜¯èª°å‘¢ï¼Ÿ\n\n");
     for(int j=1; j<=PlayerNum; j++)
     {
         switch(j)
@@ -572,8 +572,8 @@ int main()
         case 1:
         {
             SetConsoleTextAttribute(hConsole, 0xF9 );
-            printf("%s(%s)¡G \n«¢Åo¡I§Ú²Ä¤@¦¸·|¥X¡u¦X§@¡v¡C\n¤§«á¡A§Ú·|¿ï©M§A«e¤@¨B¤@¼Ò¤@¼Ëªº¿ï¾Ü³áØp¡ã\n",EnglishNames[j-1],ChineseNames[j-1]);
-            printf("¡]§A¦b¥L¤â¤¤Á`¦@±o¨ì%d¤À¡^",score[j-1]);
+            printf("%s(%s)ï¼š \nå“ˆå›‰ï¼æˆ‘ç¬¬ä¸€æ¬¡æœƒå‡ºã€Œåˆä½œã€ã€‚\nä¹‹å¾Œï¼Œæˆ‘æœƒé¸å’Œä½ å‰ä¸€æ­¥ä¸€æ¨¡ä¸€æ¨£çš„é¸æ“‡å–”å–µï½\n",EnglishNames[j-1],ChineseNames[j-1]);
+            printf("ï¼ˆä½ åœ¨ä»–æ‰‹ä¸­ç¸½å…±å¾—åˆ°%dåˆ†ï¼‰",score[j-1]);
             printnewrecord(printnewhighrecord[j-1]);
             printf("\n\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
@@ -582,8 +582,8 @@ int main()
         case 2:
         {
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("%s(%s)¡G \nµ´¤£¦X§@¡A³o¬O®z¦×±j­¹ªº¥@¬É\n",EnglishNames[j-1],ChineseNames[j-1]);
-            printf("¡]§A¦b¥L¤â¤¤Á`¦@±o¨ì%d¤À¡^",score[j-1]);
+            printf("%s(%s)ï¼š \nçµ•ä¸åˆä½œï¼Œé€™æ˜¯å¼±è‚‰å¼·é£Ÿçš„ä¸–ç•Œ\n",EnglishNames[j-1],ChineseNames[j-1]);
+            printf("ï¼ˆä½ åœ¨ä»–æ‰‹ä¸­ç¸½å…±å¾—åˆ°%dåˆ†ï¼‰",score[j-1]);
             printnewrecord(printnewhighrecord[j-1]);
             printf("\n\n");
             break;
@@ -591,8 +591,8 @@ int main()
         case 3:
         {
             SetConsoleTextAttribute(hConsole, 0xFD );
-            printf("%s(%s)¡G \n§Ú­Ì¤j®a°µªB¤Í§a¡I <3\n",EnglishNames[j-1],ChineseNames[j-1]);
-            printf("¡]§A¦b¥L¤â¤¤Á`¦@±o¨ì%d¤À¡^",score[j-1]);
+            printf("%s(%s)ï¼š \næˆ‘å€‘å¤§å®¶åšæœ‹å‹å§ï¼ <3\n",EnglishNames[j-1],ChineseNames[j-1]);
+            printf("ï¼ˆä½ åœ¨ä»–æ‰‹ä¸­ç¸½å…±å¾—åˆ°%dåˆ†ï¼‰",score[j-1]);
             printnewrecord(printnewhighrecord[j-1]);
             printf("\n\n");
             break;
@@ -600,8 +600,8 @@ int main()
         case 4:
         {
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf("%s(%s)¡G \n§ÚÎNËÌ·N¿éªº·PÄ±¡C\n§Ú·|¥ıµ¹§A­±¤l¡u¦X§@¡v¡A¦ı¬O³Ì¦n¤£­n¥Î¡u´ÛÄF¡v·S§Ú¥Í®ğ¡A§Ú°L²n´N·|·Q­n³ø¤³¡I\n",EnglishNames[j-1],ChineseNames[j-1]);
-            printf("¡]§A¦b¥L¤â¤¤Á`¦@±o¨ì%d¤À¡^",score[j-1]);
+            printf("%s(%s)ï¼š \næˆ‘å“ä½®æ„è¼¸çš„æ„Ÿè¦ºã€‚\næˆ‘æœƒå…ˆçµ¦ä½ é¢å­ã€Œåˆä½œã€ï¼Œä½†æ˜¯æœ€å¥½ä¸è¦ç”¨ã€Œæ¬ºé¨™ã€æƒ¹æˆ‘ç”Ÿæ°£ï¼Œæˆ‘è¢‚çˆ½å°±æœƒæƒ³è¦å ±ä»‡ï¼\n",EnglishNames[j-1],ChineseNames[j-1]);
+            printf("ï¼ˆä½ åœ¨ä»–æ‰‹ä¸­ç¸½å…±å¾—åˆ°%dåˆ†ï¼‰",score[j-1]);
             printnewrecord(printnewhighrecord[j-1]);
             printf("\n\n");
             break;
@@ -609,9 +609,10 @@ int main()
         case 5:
         {
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf("%s(%s)¡G \n¤ÀªR¤H¬O§Úªº¯Sªø¡C\n¹CÀ¸¶}©l§Ú·|¡u¦X§@¡v¡B¡u´ÛÄF¡v¡B¡u¦X§@¡v¡B¡u¦X§@¡v¡C\n¦pªG§A¤Ï¹L¨Ó´ÛÄF§Ú¡A§Ú´N·|¹³¼Ò¥é¿ß¨º¼Ë¸òµÛ§A¥XµP¡C\n¦pªG§A¤@ª½¤£ÄF¦^¨Ó¡A¨º§Ú´N·|¹³¶Â¨ì©³¨º¼Ëº^°®§A¡A¼K¼K¼K¡ã¡C\n³o¬O±`ÃÑ°Ú¡A§Ú¿Ë·Rªºªá¥Í¨à¡ã\n",EnglishNames[j-1],ChineseNames[j-1]);
-            printf("¡]§A¦b¥L¤â¤¤Á`¦@±o¨ì%d¤À¡^\n\n",score[j-1]);
+            printf("%s(%s)ï¼š \nåˆ†æäººæ˜¯æˆ‘çš„ç‰¹é•·ã€‚\néŠæˆ²é–‹å§‹æˆ‘æœƒã€Œåˆä½œã€ã€ã€Œæ¬ºé¨™ã€ã€ã€Œåˆä½œã€ã€ã€Œåˆä½œã€ã€‚\nå¦‚æœä½ åéä¾†æ¬ºé¨™æˆ‘ï¼Œæˆ‘å°±æœƒåƒæ¨¡ä»¿è²“é‚£æ¨£è·Ÿè‘—ä½ å‡ºç‰Œã€‚\nå¦‚æœä½ ä¸€ç›´ä¸é¨™å›ä¾†ï¼Œé‚£æˆ‘å°±æœƒåƒé»‘åˆ°åº•é‚£æ¨£æ¦¨ä¹¾ä½ ï¼Œå˜¿å˜¿å˜¿ï½ã€‚\né€™æ˜¯å¸¸è­˜å•Šï¼Œæˆ‘è¦ªæ„›çš„èŠ±ç”Ÿå…’ï½\n",EnglishNames[j-1],ChineseNames[j-1]);
+            printf("ï¼ˆä½ åœ¨ä»–æ‰‹ä¸­ç¸½å…±å¾—åˆ°%dåˆ†ï¼‰",score[j-1]);
             printnewrecord(printnewhighrecord[j-1]);
+            printf("\n\n");
             break;
         }
         }
@@ -630,24 +631,24 @@ int main()
     SetConsoleTextAttribute(hConsole, 0xF0 );
     system("pause");
     system("cls");
-    printf("¨º»ò...¦pªGÅı³o¨Ç¨¤¦â");
+    printf("é‚£éº¼...å¦‚æœè®“é€™äº›è§’è‰²");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("¦Û¤v®i¶}³Õ«³");
+    printf("è‡ªå·±å±•é–‹åšå¥•");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("¡Aµ²ªG¤S·|¬O«ç¼Ë©O¡H\n");
+    printf("ï¼Œçµæœåˆæœƒæ˜¯æ€æ¨£å‘¢ï¼Ÿ\n");
     system("pause");
     system("cls");
-    printf("²{¦b­n¶i¦æªº¬O¨C§½¨«10¨B¡AÁ`¦@ª±10§½¡A§AÄ±±o­ş­Ó¨¤¦âÁ`¤À·|³Ì°ª¡A¯à°÷¯º¨ì³Ì«á©O¡]¦¨¬°³Ì«áªºÄ¹®a¡^¡H ¥J²Ó·Q²M·¡¡AµM«á...½Ğ°µ¥X§Aªº¿ï¾Ü¡G\n");
+    printf("ç¾åœ¨è¦é€²è¡Œçš„æ˜¯æ¯å±€èµ°10æ­¥ï¼Œç¸½å…±ç©10å±€ï¼Œä½ è¦ºå¾—å“ªå€‹è§’è‰²ç¸½åˆ†æœƒæœ€é«˜ï¼Œèƒ½å¤ ç¬‘åˆ°æœ€å¾Œå‘¢ï¼ˆæˆç‚ºæœ€å¾Œçš„è´å®¶ï¼‰ï¼Ÿ ä»”ç´°æƒ³æ¸…æ¥šï¼Œç„¶å¾Œ...è«‹åšå‡ºä½ çš„é¸æ“‡ï¼š\n");
     SetConsoleTextAttribute(hConsole, 0xF9 );
-    printf("(1)%s (%s) ¡G¼Ò¥é¹ï¤èªº«e¤@­Ó°Ê§@\n",EnglishNames[0],ChineseNames[0]);
+    printf("(1)%s (%s) ï¼šæ¨¡ä»¿å°æ–¹çš„å‰ä¸€å€‹å‹•ä½œ\n",EnglishNames[0],ChineseNames[0]);
     SetConsoleTextAttribute(hConsole, 0xF1 );
-    printf("(2)%s (%s) ¡G¥Ã»·´ÛÄF¡Aµ´¤£¦X§@\n",EnglishNames[1],ChineseNames[1]);
+    printf("(2)%s (%s) ï¼šæ°¸é æ¬ºé¨™ï¼Œçµ•ä¸åˆä½œ\n",EnglishNames[1],ChineseNames[1]);
     SetConsoleTextAttribute(hConsole, 0xFD );
-    printf("(3)%s (%s) ¡G¥Ã»·¦X§@¡Aµ´¤£´ÛÄF\n",EnglishNames[2],ChineseNames[2]);
+    printf("(3)%s (%s) ï¼šæ°¸é åˆä½œï¼Œçµ•ä¸æ¬ºé¨™\n",EnglishNames[2],ChineseNames[2]);
     SetConsoleTextAttribute(hConsole, 0xF2 );
-    printf("(4)%s (%s) ¡G¥ı¦X§@¡A¦ı¬O¤@¥¹³QÄF¡A´N¥Ã»·´ÛÄF\n",EnglishNames[3],ChineseNames[3]);
+    printf("(4)%s (%s) ï¼šå…ˆåˆä½œï¼Œä½†æ˜¯ä¸€æ—¦è¢«é¨™ï¼Œå°±æ°¸é æ¬ºé¨™\n",EnglishNames[3],ChineseNames[3]);
     SetConsoleTextAttribute(hConsole, 0xF6 );
-    printf("(5)%s (%s) ¡G¦X§@¡B´ÛÄF¡B¦X§@¡B¦X§@¡A¤§«á¦pªG§A´ÛÄF¡A´N·|«ö·Ó¼Ò¥é¿ßªº¼Ò¦¡¡A¦pªG§A¤@ª½¤£¤ÏÀ»¡A´N·|ÅÜ¦¨¶Â¨ì©³\n",EnglishNames[4],ChineseNames[4]);
+    printf("(5)%s (%s) ï¼šåˆä½œã€æ¬ºé¨™ã€åˆä½œã€åˆä½œï¼Œä¹‹å¾Œå¦‚æœä½ æ¬ºé¨™ï¼Œå°±æœƒæŒ‰ç…§æ¨¡ä»¿è²“çš„æ¨¡å¼ï¼Œå¦‚æœä½ ä¸€ç›´ä¸åæ“Šï¼Œå°±æœƒè®Šæˆé»‘åˆ°åº•\n",EnglishNames[4],ChineseNames[4]);
     SetConsoleTextAttribute(hConsole, 0xF0 );
 
     int player_choice=0;
@@ -655,45 +656,45 @@ int main()
     scanf("%d",&player_choice);
     while(player_choice>5 || player_choice<1)
     {
-        printf("¥²¶·¿é¤J1~5ªº¼Æ¦r³á...>");
+        printf("å¿…é ˆè¼¸å…¥1~5çš„æ•¸å­—å–”...>");
         scanf("%d",&player_choice);
     }
-    printf("¦n¡A§A¿ïªº¬O");
+    printf("å¥½ï¼Œä½ é¸çš„æ˜¯");
     switch(player_choice)
     {
     case 1:
     {
         SetConsoleTextAttribute(hConsole, 0xF9 );
-        printf("%s¡A\n", ChineseNames[player_choice-1]);
+        printf("%sï¼Œ\n", ChineseNames[player_choice-1]);
         break;
     }
     case 2:
     {
         SetConsoleTextAttribute(hConsole, 0xF1 );
-        printf("%s¡A\n", ChineseNames[player_choice-1]);
+        printf("%sï¼Œ\n", ChineseNames[player_choice-1]);
         break;
     }
     case 3:
     {
         SetConsoleTextAttribute(hConsole, 0xFD );
-        printf("%s¡A\n", ChineseNames[player_choice-1]);
+        printf("%sï¼Œ\n", ChineseNames[player_choice-1]);
         break;
     }
     case 4:
     {
         SetConsoleTextAttribute(hConsole, 0xF2 );
-        printf("%s¡A\n", ChineseNames[player_choice-1]);
+        printf("%sï¼Œ\n", ChineseNames[player_choice-1]);
         break;
     }
     case 5:
     {
         SetConsoleTextAttribute(hConsole, 0xF6 );
-        printf("%s¡A\n", ChineseNames[player_choice-1]);
+        printf("%sï¼Œ\n", ChineseNames[player_choice-1]);
         break;
     }
     }
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("§Ú­Ì²{¦b¤@­Ó¤@­Ó¨Ó¬İ¬İ§a¡I²Ä¤@§½ªºÁÉ§½¦p¦ó©O?\n");
+    printf("æˆ‘å€‘ç¾åœ¨ä¸€å€‹ä¸€å€‹ä¾†çœ‹çœ‹å§ï¼ç¬¬ä¸€å±€çš„è³½å±€å¦‚ä½•å‘¢?\n");
     system("pause");
     system("cls");
     int player[PlayerNum]= {};
@@ -704,17 +705,17 @@ int main()
         case 1:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤@§½¡G\n");
+            printf("ç¬¬ä¸€å±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF9 );
-            printf("¼Ò¥é¿ß ");
+            printf("æ¨¡ä»¿è²“ ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°} ");
+            printf("å°é™£ ");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("¶Â§A¶Â¨ì©³\n\n");
+            printf("é»‘ä½ é»‘åˆ°åº•\n\n");
             int com1[10]= {}, com2[10]= {}, vs[10]= {},sum1=0,sum2=0;
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("*********************************");
-            printf("\n* ¨C¨B¾Ôªp¡G                    *\n");
+            printf("\n* æ¯æ­¥æˆ°æ³ï¼š                    *\n");
             for(int j=0; j<10; j++)
             {
                 if(j==0)
@@ -724,11 +725,11 @@ int main()
                 game(vs[j],&com1[j],&com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xF9 );
-                printf("¼Ò¥é¿ß¡G%2d",com1[j]);
+                printf("æ¨¡ä»¿è²“ï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xF1 );
-                printf("%2d¡G¶Â§A¶Â¨ì©³", com2[j]);
+                printf("%2dï¼šé»‘ä½ é»‘åˆ°åº•", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf(" *\n");
                 sum1+=com1[j];
@@ -736,11 +737,11 @@ int main()
             }
             printf("*");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf(" Á`¤À¡G%2d vs %2d                ",sum1,sum2);
+            printf(" ç¸½åˆ†ï¼š%2d vs %2d                ",sum1,sum2);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("*\n*********************************\n");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("\n³á¡A¹ï¤F...\n\n");
+            printf("\nå–”ï¼Œå°äº†...\n\n");
             player[0]+=sum1;
             player[1]+=sum2;
             system("pause");
@@ -750,29 +751,29 @@ int main()
         case 2:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤G§½¡G\n");
+            printf("ç¬¬äºŒå±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF9 );
-            printf("¼Ò¥é¿ß ");
+            printf("æ¨¡ä»¿è²“ ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°} ");
+            printf("å°é™£ ");
             SetConsoleTextAttribute(hConsole, 0xFD );
-            printf("¤jµ½¤H\n\n");
+            printf("å¤§å–„äºº\n\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             int sum1=0,sum2=0,com1[10]= {},com2[10]= {};
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("*****************************");
-            printf("\n* ¨C¨B¾Ôªp¡G                *\n");
+            printf("\n* æ¯æ­¥æˆ°æ³ï¼š                *\n");
             for(int j=0; j<10; j++)
             {
                 int notcooperate = 2;
                 game(notcooperate,&com1[j],&com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xF9 );
-                printf("¼Ò¥é¿ß¡G%2d",com1[j]);
+                printf("æ¨¡ä»¿è²“ï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xFD );
-                printf("%2d¡G¤jµ½¤H ", com2[j]);
+                printf("%2dï¼šå¤§å–„äºº ", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("*\n");
                 sum1+=com1[j];
@@ -780,10 +781,10 @@ int main()
             }
             printf("*");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("Á`¤À¡G%2d vs %2d             ",sum1,sum2);
+            printf("ç¸½åˆ†ï¼š%2d vs %2d             ",sum1,sum2);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("*\n*****************************\n");
-            printf("\n...§A¥i¯à¦³ÂIÃhºÃ¤§«e©Ò»¡ªº¡A¾ÔÀ¢¸Ì¸t½Ï¸`¥ğ¾Ôªº¬G¨Æ¡C¨º¥u¬O¸I¥©§a¡H\n\n");
+            printf("\n...ä½ å¯èƒ½æœ‰é»æ‡·ç–‘ä¹‹å‰æ‰€èªªçš„ï¼Œæˆ°å£•è£¡è–èª•ç¯€ä¼‘æˆ°çš„æ•…äº‹ã€‚é‚£åªæ˜¯ç¢°å·§å§ï¼Ÿ\n\n");
             player[0]+=sum1;
             player[2]+=sum2;
             system("pause");
@@ -793,16 +794,16 @@ int main()
         case 3:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤T§½¡G\n");
+            printf("ç¬¬ä¸‰å±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF9 );
-            printf("¼Ò¥é¿ß ");
+            printf("æ¨¡ä»¿è²“ ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°}");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf(" ¤û¤åÁo\n\n");
+            printf(" ç‰›æ–‡è°\n\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("*****************************");
-            printf("\n* ¨C¨B¾Ôªp¡G                *\n");
+            printf("\n* æ¯æ­¥æˆ°æ³ï¼š                *\n");
             int com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             for(int j=0; j<10; j++)
             {
@@ -811,11 +812,11 @@ int main()
 
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xF9 );
-                printf("¼Ò¥é¿ß¡G%2d",com1[j]);
+                printf("æ¨¡ä»¿è²“ï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xF2 );
-                printf("%2d¡G¤û¤åÁo ", com2[j]);
+                printf("%2dï¼šç‰›æ–‡è° ", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("*\n");
                 sum1+=com1[j];
@@ -823,10 +824,10 @@ int main()
             }
             printf("* ");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("Á`¤À¡G%d vs %d            *\n",sum1,sum2);
+            printf("ç¸½åˆ†ï¼š%d vs %d            *\n",sum1,sum2);
             printf("*****************************\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("\n¨S¿ù¡A¥ğ¾Ô¬İ°_¨ÓÁÙ¬O®¼À¸¼@¤Æªº¡A¦ı¬O¬J¤£¯à»¡¬O¿W¤@µL¤G¡A¤]¤£¯à»¡¬O¤£´M±`¡C\n\n");
+            printf("\næ²’éŒ¯ï¼Œä¼‘æˆ°çœ‹èµ·ä¾†é‚„æ˜¯æŒºæˆ²åŠ‡åŒ–çš„ï¼Œä½†æ˜¯æ—¢ä¸èƒ½èªªæ˜¯ç¨ä¸€ç„¡äºŒï¼Œä¹Ÿä¸èƒ½èªªæ˜¯ä¸å°‹å¸¸ã€‚\n\n");
             player[0]+=sum1;
             player[3]+=sum2;
             system("pause");
@@ -836,17 +837,17 @@ int main()
         case 4:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¥|§½¡G\n");
+            printf("ç¬¬å››å±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF9 );
-            printf("¼Ò¥é¿ß ");
+            printf("æ¨¡ä»¿è²“ ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°}");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf(" ºÖº¸¼¯¬P¨à\n");
+            printf(" ç¦çˆ¾æ‘©æ˜Ÿå…’\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             int vs[10]= {},com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             printf("\n*********************************");
-            printf("\n* ¨C¨B¾Ôªp¡G                    *\n");
+            printf("\n* æ¯æ­¥æˆ°æ³ï¼š                    *\n");
             for(int j=0; j<10; j++)
             {
                 if(j==1)
@@ -864,11 +865,11 @@ int main()
                 game(vs[j], &com1[j], &com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xF9 );
-                printf("¼Ò¥é¿ß¡G%2d",com1[j]);
+                printf("æ¨¡ä»¿è²“ï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xF6 );
-                printf("%2d¡GºÖº¸¼¯¬P¨à ", com2[j]);
+                printf("%2dï¼šç¦çˆ¾æ‘©æ˜Ÿå…’ ", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("*\n");
                 sum1+=com1[j];
@@ -876,9 +877,9 @@ int main()
             }
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("* ");
-            printf("Á`¤À¡G%d vs %d                *\n",sum1,sum2);
+            printf("ç¸½åˆ†ï¼š%d vs %d                *\n",sum1,sum2);
             printf("*********************************\n");
-            printf("\n¨Ã¤£¬O¨C­Ó¾ÔÀ¢³£·|¹F¦¨©M¥­¡AµM¦Ó³oºØ²{¶HÁÙ¬O¬Û·í´¶¹M¡C\n¦A¦¸±j½Õ¡AÁöµM¦³©ú½T¡BÄY®æªº­x¥O¸T¤î¡A¦ı¬O¦³«D±`¦hªº«e½u³¡¶¤¡A³£·|¤£¬ù¦Ó¦P¦a¹F¦¨©M¥­¡C\n\n");
+            printf("\nä¸¦ä¸æ˜¯æ¯å€‹æˆ°å£•éƒ½æœƒé”æˆå’Œå¹³ï¼Œç„¶è€Œé€™ç¨®ç¾è±¡é‚„æ˜¯ç›¸ç•¶æ™®éã€‚\nå†æ¬¡å¼·èª¿ï¼Œé›–ç„¶æœ‰æ˜ç¢ºã€åš´æ ¼çš„è»ä»¤ç¦æ­¢ï¼Œä½†æ˜¯æœ‰éå¸¸å¤šçš„å‰ç·šéƒ¨éšŠï¼Œéƒ½æœƒä¸ç´„è€ŒåŒåœ°é”æˆå’Œå¹³ã€‚\n\n");
             player[0]+=sum1;
             player[4]+=sum2;
             system("pause");
@@ -888,16 +889,16 @@ int main()
         case 5:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤­§½¡G\n");
+            printf("ç¬¬äº”å±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("¶Â§A¶Â¨ì©³ ");
+            printf("é»‘ä½ é»‘åˆ°åº• ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°}");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xFD );
-            printf(" ¤jµ½¤H\n\n");
+            printf(" å¤§å–„äºº\n\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("**********************************");
-            printf("\n* ¨C¨B¾Ôªp¡G                     *\n");
+            printf("\n* æ¯æ­¥æˆ°æ³ï¼š                     *\n");
             int com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             for(int j=0; j<10; j++)
             {
@@ -905,11 +906,11 @@ int main()
                 game(notcooperate, &com1[j], &com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xF1 );
-                printf("¶Â§A¶Â¨ì©³¡G%2d  ",com1[j]);
+                printf("é»‘ä½ é»‘åˆ°åº•ï¼š%2d  ",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("vs");
                 SetConsoleTextAttribute(hConsole, 0xFD );
-                printf(" %2d ¡G¤jµ½¤H ", com2[j]);
+                printf(" %2d ï¼šå¤§å–„äºº ", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("*\n");
                 sum1+=com1[j];
@@ -917,11 +918,11 @@ int main()
             }
             printf("* ");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("Á`¤À¡G%d vs %d                *\n",sum1,sum2);
+            printf("ç¸½åˆ†ï¼š%d vs %d                *\n",sum1,sum2);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("**********************************\n");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("\n¦Ó¥B¨Æ¹ê¤W¡A§Y¨Ï¦b¸t½Ï¸`¤§«e¡A¦³¨Ç«e½u³¡¶¤´N¤w¸g®¨®¨¦a¹F¦¨¤F«D©x¤èªº©M¥­¡C\n\n");
+            printf("\nè€Œä¸”äº‹å¯¦ä¸Šï¼Œå³ä½¿åœ¨è–èª•ç¯€ä¹‹å‰ï¼Œæœ‰äº›å‰ç·šéƒ¨éšŠå°±å·²ç¶“æ‚„æ‚„åœ°é”æˆäº†éå®˜æ–¹çš„å’Œå¹³ã€‚\n\n");
             player[1]+=sum1;
             player[2]+=sum2;
             system("pause");
@@ -931,27 +932,27 @@ int main()
         case 6:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤»§½¡G\n");
+            printf("ç¬¬å…­å±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("¶Â§A¶Â¨ì©³ ");
+            printf("é»‘ä½ é»‘åˆ°åº• ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°}");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf(" ¤û¤åÁo\n");
+            printf(" ç‰›æ–‡è°\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             int com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             int notcooperate=3;
             printf("\n**********************************\n");
-            printf("* ¨C¨B¾Ôªp                       *\n");
+            printf("* æ¯æ­¥æˆ°æ³                       *\n");
             for(int j=0; j<10; j++)
             {
                 game(notcooperate, &com1[j], &com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("*");
                 SetConsoleTextAttribute(hConsole, 0xF1 );
-                printf(" ¶Â§A¶Â¨ì©³¡G%2d  vs",com1[j]);
+                printf(" é»‘ä½ é»‘åˆ°åº•ï¼š%2d  vs",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF2 );
-                printf(" %2d ¡G¤û¤åÁo", com2[j]);
+                printf(" %2d ï¼šç‰›æ–‡è°", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf(" *\n");
                 sum1+=com1[j];
@@ -959,13 +960,13 @@ int main()
                 notcooperate=0;
             }
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("* Á`¤À¡G%d vs %d                  *\n",sum1,sum2);
+            printf("* ç¸½åˆ†ï¼š%d vs %d                  *\n",sum1,sum2);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("**********************************\n");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("\n¥L­Ì§â³o­Ó¥s°µ¡G");
-            printf("¡u¤¬´f¼e®e¡]live and let live¡^¡v");
-            printf("¡CÂ²³æ¨Ó»¡¡A´N¬O§A¤£¥´§Ú¡A§Ú¤]´N¤£¥´§A¡C¦Ó¥B³oºØ±¡ªp¦b«Ü¦h¦a¤è³£¾A¥Î¡C\n\n");
+            printf("\nä»–å€‘æŠŠé€™å€‹å«åšï¼š");
+            printf("ã€Œäº’æƒ å¯¬å®¹ï¼ˆlive and let liveï¼‰ã€");
+            printf("ã€‚ç°¡å–®ä¾†èªªï¼Œå°±æ˜¯ä½ ä¸æ‰“æˆ‘ï¼Œæˆ‘ä¹Ÿå°±ä¸æ‰“ä½ ã€‚è€Œä¸”é€™ç¨®æƒ…æ³åœ¨å¾ˆå¤šåœ°æ–¹éƒ½é©ç”¨ã€‚\n\n");
             player[1]+=sum1;
             player[3]+=sum2;
             system("pause");
@@ -975,16 +976,16 @@ int main()
         case 7:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤C§½¡G\n");
+            printf("ç¬¬ä¸ƒå±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("¶Â§A¶Â¨ì©³ ");
-            printf("¹ï°}");
+            printf("é»‘ä½ é»‘åˆ°åº• ");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf(" ºÖº¸¼¯¬P¨à\n");
+            printf(" ç¦çˆ¾æ‘©æ˜Ÿå…’\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             int vs[10]= {},com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             printf("\n**************************************\n");
-            printf("* ¨C¨B¾Ôªp                           *\n");
+            printf("* æ¯æ­¥æˆ°æ³                           *\n");
             for(int j=0; j<10; j++)
             {
                 if(j==0 || j==2 || j==3)
@@ -994,11 +995,11 @@ int main()
                 game(vs[j], &com1[j], &com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xF1 );
-                printf("¶Â§A¶Â¨ì©³¡G%2d",com1[j]);
+                printf("é»‘ä½ é»‘åˆ°åº•ï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xF6 );
-                printf(" %2d¡GºÖº¸¼¯¬P¨à", com2[j]);
+                printf(" %2dï¼šç¦çˆ¾æ‘©æ˜Ÿå…’", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf(" *\n");
                 sum1+=com1[j];
@@ -1006,11 +1007,11 @@ int main()
             }
             printf("* ");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("Á`¤À¡G%d vs %d                      *",sum1,sum2);
+            printf("ç¸½åˆ†ï¼š%d vs %d                      *",sum1,sum2);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("\n**************************************\n");
             SetConsoleTextAttribute(hConsole, 0xF1 );
-            printf("\n§A¥i¯àÁÙ·|¦³ºÃ´b¡C¤@¯ë¤h§L¨Ã¤£·|¦Ûµo¦a»P¼Ä¤H¹F¦¨©M¥­¡A¬°¤°»ò¦b¾ÔÀ¢¸Ìªº°}¦a¾Ô®É´N®æ¥~¤£¦P©O¡H\n\n");
+            printf("\nä½ å¯èƒ½é‚„æœƒæœ‰ç–‘æƒ‘ã€‚ä¸€èˆ¬å£«å…µä¸¦ä¸æœƒè‡ªç™¼åœ°èˆ‡æ•µäººé”æˆå’Œå¹³ï¼Œç‚ºä»€éº¼åœ¨æˆ°å£•è£¡çš„é™£åœ°æˆ°æ™‚å°±æ ¼å¤–ä¸åŒå‘¢ï¼Ÿ\n\n");
             player[1]+=sum1;
             player[4]+=sum2;
             system("pause");
@@ -1020,16 +1021,16 @@ int main()
         case 8:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤K§½¡G\n");
+            printf("ç¬¬å…«å±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xFD );
-            printf("¤jµ½¤H ");
+            printf("å¤§å–„äºº ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°}");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf(" ¤û¤åÁo\n");
+            printf(" ç‰›æ–‡è°\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("\n*****************************\n");
-            printf("* ¨C¨B¾Ôªp                  *\n");
+            printf("* æ¯æ­¥æˆ°æ³                  *\n");
             int com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             for(int j=0; j<10; j++)
             {
@@ -1037,20 +1038,20 @@ int main()
                 game(cooperate, &com1[j], &com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xFD );
-                printf("¤jµ½¤H¡G%2d",com1[j]);
+                printf("å¤§å–„äººï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xF2 );
-                printf("%2d¡G¤û¤åÁo", com2[j]);
+                printf("%2dï¼šç‰›æ–‡è°", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf(" *\n");
                 sum1+=com1[j];
                 sum2+=com2[j];
             }
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("* Á`¤À¡G%d vs %d            *\n",sum1,sum2);
+            printf("* ç¸½åˆ†ï¼š%d vs %d            *\n",sum1,sum2);
             printf("*****************************\n");
-            printf("\n¨º¬O¦]¬°¡A°}¦a¾Ô¸ò¨ä¥L§Î¦¡ªº¾Ô§Ğ¤£¦P¡G¦b°}¦a¾Ô¤¤¡A§A¨C¤Ñ³£·|­±¹ïªº¬O¦P¤@§å­x¤H¡C\n\n");
+            printf("\né‚£æ˜¯å› ç‚ºï¼Œé™£åœ°æˆ°è·Ÿå…¶ä»–å½¢å¼çš„æˆ°å½¹ä¸åŒï¼šåœ¨é™£åœ°æˆ°ä¸­ï¼Œä½ æ¯å¤©éƒ½æœƒé¢å°çš„æ˜¯åŒä¸€æ‰¹è»äººã€‚\n\n");
             player[2]+=sum1;
             player[3]+=sum2;
             system("pause");
@@ -1060,16 +1061,16 @@ int main()
         case 9:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤E§½¡G\n");
+            printf("ç¬¬ä¹å±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xFD );
-            printf("¤jµ½¤H ");
+            printf("å¤§å–„äºº ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°}");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf(" ºÖº¸¼¯¬P¨à\n");
+            printf(" ç¦çˆ¾æ‘©æ˜Ÿå…’\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("\n*********************************\n");
-            printf("* ¨C¨B¾Ôªp¡G                    *\n");
+            printf("* æ¯æ­¥æˆ°æ³ï¼š                    *\n");
             int vs[10]= {},com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             for(int j=0; j<10; j++)
             {
@@ -1084,11 +1085,11 @@ int main()
                 game(vs[j], &com1[j], &com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xFD );
-                printf("¤jµ½¤H¡G%2d",com1[j]);
+                printf("å¤§å–„äººï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xF6 );
-                printf("%2d¡GºÖº¸¼¯¬P¨à", com2[j]);
+                printf("%2dï¼šç¦çˆ¾æ‘©æ˜Ÿå…’", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf(" *\n");
                 sum1+=com1[j];
@@ -1096,12 +1097,12 @@ int main()
             }
             printf("* ");
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf("Á`¤À¡G%d vs %d                ",sum1,sum2);
+            printf("ç¸½åˆ†ï¼š%d vs %d                ",sum1,sum2);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("*");
             printf("\n*********************************\n");
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf("\n³o¬O¤@³õ­«½Æ¹CÀ¸¡C³o¤@ÂI¡AÅı°}¦a¾Ô»P¨ä¥Lªº¾Ôª§§¹¥ş¤£¦P¡C\n\n");
+            printf("\né€™æ˜¯ä¸€å ´é‡è¤‡éŠæˆ²ã€‚é€™ä¸€é»ï¼Œè®“é™£åœ°æˆ°èˆ‡å…¶ä»–çš„æˆ°çˆ­å®Œå…¨ä¸åŒã€‚\n\n");
             player[2]+=sum1;
             player[4]+=sum2;
             system("pause");
@@ -1111,16 +1112,16 @@ int main()
         case 10:
         {
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("²Ä¤Q§½¡G\n");
+            printf("ç¬¬åå±€ï¼š\n");
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf("¤û¤åÁo ");
+            printf("ç‰›æ–‡è° ");
             SetConsoleTextAttribute(hConsole, 0xF0 );
-            printf("¹ï°}");
+            printf("å°é™£");
             SetConsoleTextAttribute(hConsole, 0xF6 );
-            printf(" ºÖº¸¼¯¬P¨à\n");
+            printf(" ç¦çˆ¾æ‘©æ˜Ÿå…’\n");
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("\n*********************************\n");
-            printf("* ¨C¨B¾Ôªp¡G                    *\n");
+            printf("* æ¯æ­¥æˆ°æ³ï¼š                    *\n");
             int vs[10]= {},com1[10]= {},com2[10]= {},sum1=0,sum2=0;
             for(int j=0; j<10; j++)
             {
@@ -1139,11 +1140,11 @@ int main()
                 game(vs[j], &com1[j], &com2[j]);
                 printf("* ");
                 SetConsoleTextAttribute(hConsole, 0xF2 );
-                printf("¤û¤åÁo¡G%2d",com1[j]);
+                printf("ç‰›æ–‡è°ï¼š%2d",com1[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf("  vs ");
                 SetConsoleTextAttribute(hConsole, 0xF6 );
-                printf("%2d¡GºÖº¸¼¯¬P¨à", com2[j]);
+                printf("%2dï¼šç¦çˆ¾æ‘©æ˜Ÿå…’", com2[j]);
                 SetConsoleTextAttribute(hConsole, 0xF0 );
                 printf(" *\n");
                 sum1+=com1[j];
@@ -1151,12 +1152,12 @@ int main()
             }
             printf("* ");
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf("Á`¤À¡G%d vs %d                  ",sum1,sum2);
+            printf("ç¸½åˆ†ï¼š%d vs %d                  ",sum1,sum2);
             SetConsoleTextAttribute(hConsole, 0xF0 );
             printf("*");
             printf("\n*********************************\n");
             SetConsoleTextAttribute(hConsole, 0xF2 );
-            printf("\n¦n¡A§Ú­Ì¥ı¦^¨ì¤ñÁÉ¸Ì¡C³o¦¸ªºÄ¹®a´N¬O...(¹ªÁn)\n\n");
+            printf("\nå¥½ï¼Œæˆ‘å€‘å…ˆå›åˆ°æ¯”è³½è£¡ã€‚é€™æ¬¡çš„è´å®¶å°±æ˜¯...(é¼“è²)\n\n");
             player[3]+=sum1;
             player[4]+=sum2;
             system("pause");
@@ -1207,55 +1208,55 @@ int main()
         Sleep(200);
     }
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("®¥³ß³Ó§Q(Á`¿n¤À³Ì°ª)ªº");
+    printf("æ­å–œå‹åˆ©(ç¸½ç©åˆ†æœ€é«˜)çš„");
     SetConsoleTextAttribute(hConsole, 0xF9 );
-    printf("Copy Cat(¼Ò¥é¿ß)");
+    printf("Copy Cat(æ¨¡ä»¿è²“)");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("¡I¡I¡I(Åw©I~~)\n");
+    printf("ï¼ï¼ï¼(æ­¡å‘¼~~)\n");
     if(player_choice==1)
     {
         SetConsoleTextAttribute(hConsole, 0xFC );
-        printf("®¥³ß§Aµª¹ï¤F¡I\n\n");
+        printf("æ­å–œä½ ç­”å°äº†ï¼\n\n");
     }
     else
     {
-        printf("¡]¹ï¤£°_°Õ~ ");
+        printf("ï¼ˆå°ä¸èµ·å•¦~ ");
         printf("%s ", EnglishNames[player_choice-1]);
         printf("%s ", ChineseNames[player_choice-1]);
-        printf("~¡^\n\n");
+        printf("~ï¼‰\n\n");
     }
     SetConsoleTextAttribute(hConsole, 0xF9 );
-    printf("¼Ò¥é¿ß");
+    printf("æ¨¡ä»¿è²“");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("¤]¦³«Ü¦h§O¦W¡A¹³¬O");
+    printf("ä¹Ÿæœ‰å¾ˆå¤šåˆ¥åï¼Œåƒæ˜¯");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("¶Àª÷©w«ß¡B¤¬´f§Q¥L¥D¸q¡B¥H¤úÁÙ¤ú¡A©ÎªÌ»¡¤¬´f¼e®e¡C");
+    printf("é»ƒé‡‘å®šå¾‹ã€äº’æƒ åˆ©ä»–ä¸»ç¾©ã€ä»¥ç‰™é‚„ç‰™ï¼Œæˆ–è€…èªªäº’æƒ å¯¬å®¹ã€‚");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("\n\n³o´N¬O¬°¤°»ò¡u©M¥­¡v·|¦p«B«á¬Kµ«¤@¯ë¡A¦b¤@¾Ôªº¾ÔÀ¢¤¤½¯©µ¶}¨Ó¡G·í§A³Q­¢¨C¤Ñ»P¦P¤@§å¤H¡X¡X¤£¶È¶È¬O´¶¹M·N¸q¤Wªº¡u¼Ä¤H¡v¡A\n\n¦Ó¬O¦P¼Ëªº¤@§å¤H¡X¡X¶i¦æ¦P¼Ëªº¹CÀ¸¡]¨Ò¦p¾Ôª§¡^®É¡A");
+    printf("\n\né€™å°±æ˜¯ç‚ºä»€éº¼ã€Œå’Œå¹³ã€æœƒå¦‚é›¨å¾Œæ˜¥ç­ä¸€èˆ¬ï¼Œåœ¨ä¸€æˆ°çš„æˆ°å£•ä¸­è”“å»¶é–‹ä¾†ï¼šç•¶ä½ è¢«è¿«æ¯å¤©èˆ‡åŒä¸€æ‰¹äººâ€”â€”ä¸åƒ…åƒ…æ˜¯æ™®éæ„ç¾©ä¸Šçš„ã€Œæ•µäººã€ï¼Œ\n\nè€Œæ˜¯åŒæ¨£çš„ä¸€æ‰¹äººâ€”â€”é€²è¡ŒåŒæ¨£çš„éŠæˆ²ï¼ˆä¾‹å¦‚æˆ°çˆ­ï¼‰æ™‚ï¼Œ");
     SetConsoleTextAttribute(hConsole, 0xF9 );
-    printf("¼Ò¥é¿ß");
+    printf("æ¨¡ä»¿è²“");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("³o¼Ëªº¤H");
+    printf("é€™æ¨£çš„äºº");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("¤£³æ³æ·|Ä¹±o¤@³õ¾Ô§Ğ¡A¥L­Ì·|Ä¹±o¾ã³õ¾Ôª§¡C\n\n");
+    printf("ä¸å–®å–®æœƒè´å¾—ä¸€å ´æˆ°å½¹ï¼Œä»–å€‘æœƒè´å¾—æ•´å ´æˆ°çˆ­ã€‚\n\n");
     SetConsoleTextAttribute(hConsole, 0xF0 );
     system("pause");
     system("cls");
-    printf("·íµM¡A");
+    printf("ç•¶ç„¶ï¼Œ");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("¤@­Ó¤H­nÄ¹±o§Aªº«H¥ô¡A©ÎªÌ¬O§A­nÄ¹±o¥L¤Hªº«H¥ô¡A¨Ã¤£¬O¤@­ÓÂ²³æªº¹CÀ¸´N¥i¥H¸Ñ¨M¡A\n\nÁÙ¦³·N¥~¡B§Q®`Ãö«Y");
+    printf("ä¸€å€‹äººè¦è´å¾—ä½ çš„ä¿¡ä»»ï¼Œæˆ–è€…æ˜¯ä½ è¦è´å¾—ä»–äººçš„ä¿¡ä»»ï¼Œä¸¦ä¸æ˜¯ä¸€å€‹ç°¡å–®çš„éŠæˆ²å°±å¯ä»¥è§£æ±ºï¼Œ\n\né‚„æœ‰æ„å¤–ã€åˆ©å®³é—œä¿‚");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("...µ¥«Ü¦hªº¦]¯À¡C\n\n¤H»ÚªºÃö«Y¿ùºî½ÆÂø¡A");
+    printf("...ç­‰å¾ˆå¤šçš„å› ç´ ã€‚\n\näººéš›çš„é—œä¿‚éŒ¯ç¶œè¤‡é›œï¼Œ");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("¨C­Ó¤Hªº©Ê®æ¡B­ì«h³£¦³©Ò¤£¦P¡A´N¦p¦P¹CÀ¸¸Ìªº¨¤¦â¤@¼Ë¡A³£¦³¦Û¤vªº­Ó©Ê¡A");
+    printf("æ¯å€‹äººçš„æ€§æ ¼ã€åŸå‰‡éƒ½æœ‰æ‰€ä¸åŒï¼Œå°±å¦‚åŒéŠæˆ²è£¡çš„è§’è‰²ä¸€æ¨£ï¼Œéƒ½æœ‰è‡ªå·±çš„å€‹æ€§ï¼Œ");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("§Ú­Ì«ÜÃø¯u¥¿²z¸Ñ©M¸Ñ¨M¨C¤@­Ó°İÃD¡C\n\n");
-    printf("¤µ¤Ñªº¹CÀ¸´N¨ì³o¸Ì§i¤@¬q¸¨¡A§Æ±æ¯àÅı§A¦³©Ò¦¬Ã¬¡C\n\n");
+    printf("æˆ‘å€‘å¾ˆé›£çœŸæ­£ç†è§£å’Œè§£æ±ºæ¯ä¸€å€‹å•é¡Œã€‚\n\n");
+    printf("ä»Šå¤©çš„éŠæˆ²å°±åˆ°é€™è£¡å‘Šä¸€æ®µè½ï¼Œå¸Œæœ›èƒ½è®“ä½ æœ‰æ‰€æ”¶ç©«ã€‚\n\n");
     SetConsoleTextAttribute(hConsole, 0xFC );
-    printf("ps:§O§Ñ¤F¨ìµ{¦¡µ²§ô«áªººô­¶¬İ¬İ§Aªº¹CÀ¸¬ö¿ı³á!)\n\n");
+    printf("ps:åˆ¥å¿˜äº†åˆ°ç¨‹å¼çµæŸå¾Œçš„ç¶²é çœ‹çœ‹ä½ çš„éŠæˆ²ç´€éŒ„å–”!)\n\n");
     SetConsoleTextAttribute(hConsole, 0xF0 );
-    printf("¦A¨£Åo~\n\n");
-    printf("===========¹CÀ¸µ²§ô===========\n\n");
+    printf("å†è¦‹å›‰~\n\n");
+    printf("===========éŠæˆ²çµæŸ===========\n\n");
     system("pause");
     system("cls");
     return 0;
